@@ -13,6 +13,7 @@ def return_global_instruction(ctx: ReadonlyContext) -> str:
 
     Date precision only (no clock time): a per-turn value here would bust
     prompt caching, since this string is the cached instruction prefix.
+    Be precise
 
     Args:
         ctx: ReadonlyContext providing access to session metadata including
