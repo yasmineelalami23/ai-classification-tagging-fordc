@@ -14,8 +14,8 @@ from .prompt import (
 )
 from .tools import get_current_time
 
-APP_NAME = "agent_foundation"
-ROOT_AGENT_NAME = "agent_foundation"
+APP_NAME = "agent_classification_tagging"
+ROOT_AGENT_NAME = "agent_classification_tagging"
 ROOT_AGENT_MODEL = "gemini-2.5-flash"
 
 logging_callbacks = LoggingCallbacks()
